@@ -1,17 +1,17 @@
 const nodemailer = require("nodemailer");
 
 let transporter = nodemailer.createTransport({
-    host: "smtp.gmail.com",
+    host: "smtp.office365.com",
     port: 587,
-    secure: true,
+    secure: false,
     auth: {
-        user: "ewertonzorolima@gmail.com",
-        pass: "clbjtypmyrxsdona"
+        user: "cocoatech@outlook.com",
+        pass: "460820Ab@"
     }
 });
 
 transporter.sendMail({
-    from: "Ewerton Lima <ewertonzorolima@gmail.com>",
+    from: "Ewerton Lima <cocoatech@outlook.com>",
     to: "limaleite989@gmail.com",
     subject: "Oi sou o ewerton e vou ser um back end muitooo foda",
     text: "Olá sou o ewerton hoje dia 08 de abril estou aprendendo node js e é muitooooo foda"
