@@ -1,5 +1,5 @@
 #API NodeMailer
-(https://nodejs.org/static/images/logo.svg)
+![Node.js guy logo](https://nodejs.org/static/images/logo-light.svg)
 
 A API NodeMailer é uma biblioteca Node.js que permite o envio de e-mails utilizando SMTP ou outros protocolos de transporte de e-mail. Com ela, é possível enviar e-mails em HTML, com anexos e até mesmo com conteúdo dinâmico.
 
